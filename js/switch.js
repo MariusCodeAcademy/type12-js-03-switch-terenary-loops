@@ -1,7 +1,8 @@
 'use strict';
 // gaunam is vartotjo su prompt skaiciu nuo 1 iki 3
 
-let gavauSk = prompt('Please enter weekday');
+// let gavauSk = prompt('Please enter weekday');
+let gavauSk = '6';
 // +'1' === Number('1')
 gavauSk = +gavauSk;
 // if (gavauSk === 1) {
@@ -35,4 +36,21 @@ switch (gavauSk) {
     break;
   default:
     console.log(`pasirinktas skaicius yra ${gavauSk}: Klaida`);
+}
+
+// gaunam is prompt menesio sk nuo 1 - 12
+// su switch kelintas ketvirtis
+// 1 ketvirtis
+// 2 ketvirtis
+// 3 ketvirtis
+// 4 ketvirtis
+
+let menuo = +'4';
+
+switch (menuo) {
+  case 1:
+  case 2:
+  case 3:
+    console.log('1 ketvirtis');
+    break;
 }
