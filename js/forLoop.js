@@ -21,3 +21,11 @@ for (let i = 3; i <= 5; i++) {
   console.log(`i: ${i}`);
 }
 console.log('total total ===', total);
+
+// paimti skaicius nuo 2 iki 10 ir isvesti ju vidurki su for ciklo
+
+// psiaudo kodas
+// sukam cika nuo 2 iki 10
+// sukdami mes skaicuojam bendra suma
+// sukdami mes skaicuojam kiek skaiciu jau buvo
+// po ciklu padalinti suma is kiek buvo skaiciu

@@ -26,3 +26,7 @@ do {
   console.log(`ciklas ${i}`);
   i++;
 } while (i <= 8);
+
+// ridenti kauliukus tol kol ismesim 12
+// ridenat galim gauti random nuo 1 iki 12
+// kiek kartu reiks mesti ko gausim 12
